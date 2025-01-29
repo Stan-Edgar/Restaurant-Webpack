@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Norse;
+    src: url(./Norse-Bold.otf);
+}
+
+body {
+    font-family: Norse;
+    margin-top: 50px;
+}
+
+img {
+    width: 300px;
+}
+
+.hero {
+    display: flex; 
+    height: 400px;
+    background-color: rebeccapurple; 
+    margin-top: 20px; 
+    padding: 5px 10px; 
+    gap: 40px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(205, 161, 245);
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+h1 {
+    margin-bottom: 20px;
+} 
+
+p {
+    font-size: 1.1rem;
+    color: white;
+}
